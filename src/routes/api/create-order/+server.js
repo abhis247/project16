@@ -1,6 +1,9 @@
 import Razorpay from 'razorpay';
 import { json } from '@sveltejs/kit';
-import { RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET } from '$env/static/private';
+import {
+  RAZORPAY_KEY_ID,
+  PRIVATE_RAZORPAY_KEY_SECRET
+} from '$env/static/private';
 
 const razorpay = new Razorpay({
   key_id: RAZORPAY_KEY_ID,
