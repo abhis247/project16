@@ -99,7 +99,7 @@
   <!-- SIDEBAR -->
   <aside class="sidebar">
     <a class="brand" href="/">
-      <span>LP</span>
+      <span>LPk</span>
       <strong>LotteryPro</strong>
     </a>
 
