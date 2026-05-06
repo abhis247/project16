@@ -1,4 +1,3 @@
-```svelte
 <script>
   import { Sparkles, Ticket } from 'lucide-svelte';
   import AppShell from '$lib/components/AppShell.svelte';
