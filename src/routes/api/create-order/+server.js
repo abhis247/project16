@@ -1,5 +1,6 @@
 import Razorpay from 'razorpay';
 import { json } from '@sveltejs/kit';
+
 import {
   RAZORPAY_KEY_ID,
   PRIVATE_RAZORPAY_KEY_SECRET
@@ -7,7 +8,7 @@ import {
 
 const razorpay = new Razorpay({
   key_id: RAZORPAY_KEY_ID,
-  key_secret: RAZORPAY_KEY_SECRET
+  key_secret: PRIVATE_RAZORPAY_KEY_SECRET
 });
 
 export async function POST({ request }) {
