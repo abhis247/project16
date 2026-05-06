@@ -253,10 +253,10 @@ input {
 }
 
 /* selected */
-.quick button.active {
+/* .quick button.active {
   background: linear-gradient(135deg, #3b82f6, #14b8a6);
   border: none;
-}
+} */
 /* list */
 .mini-list {
   display: grid;

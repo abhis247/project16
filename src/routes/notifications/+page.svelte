@@ -91,10 +91,7 @@
 }
 
 /* ================= ICON ================= */
-.timeline svg {
-  margin-top: 2px;
-  color: #38bdf8;
-}
+
 
 /* ================= TEXT ================= */
 .timeline strong {
@@ -113,10 +110,10 @@
   border-color: rgba(34,197,94,0.4);
   background: rgba(34,197,94,0.08);
 }
-
+/* 
 .timeline article.success svg {
   color: #22c55e;
-}
+} */
 
 /* ================= EMPTY ================= */
 .empty {
